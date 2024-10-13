@@ -1,0 +1,30 @@
+{
+	"configurations": [
+		{
+			"name": "MinGW",
+			"includePath": [
+				"${workspaceFolder}/**",
+				"C:/msys86/mingw64/bin",
+				"C:/mingw64/include",
+				"C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+				"C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+				"C:/msys86/mingw64/include/gtk-3.0",
+				"C:/msys86/mingw64/include/glib-2.0",
+				"C:/msys86/mingw64/lib/glib-2.0/include",
+                   "C:/msys86/mingw64/include/pango-1.0",
+				   "C:/msys86/mingw64/include/harfbuzz"	,
+				   "C:/msys86/mingw64/include/cairo",
+				   "C:/msys86/mingw64/include/gdk-pixbuf-2.0",
+				   "C:/msys86/mingw64/include/atk-1.0",
+				   "C:/msys86/mingw64/lib/pkgconfig"	
+			],
+			"defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+			"configurationProvider": "ms-vscode.makefile-tools",
+			"compilerPath": "C:/mingw64/bin/gcc.exe",
+			"cStandard": "c11",
+			"cppStandard": "c++17",
+			"intelliSenseMode": "gcc-x64"
+		}
+	],
+	"version": 4
+}
